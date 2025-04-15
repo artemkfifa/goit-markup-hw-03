@@ -22,7 +22,7 @@
 
     /* common */
 
-    .conteiner {
+    .container {
         max-width: 1158px;
         padding: 0 15px 0 15px;
         margin: 0 auto ;
@@ -31,7 +31,7 @@
     /* header */
 
     .page_header {
-        border-bottom: 1px solid ##E7E9FC;
+        border-bottom: 1px solid #E7E9FC;
     }
 
     .header_conteiner {
