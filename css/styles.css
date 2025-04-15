@@ -242,6 +242,10 @@
         flex-basis: calc((100% - 24px* 3) / 4);
     }
 
+    .our_team_item img {
+        display: block;
+    }
+
     .our_team_info {
         padding: 32px 16px;
         text-align: center;
