@@ -161,6 +161,7 @@
             color: #FFFFFF;
             letter-spacing: 0.02em;
             margin-bottom: 48px;
+            max-width: 496px;
         }
     
         .button_main {
@@ -175,6 +176,9 @@
             border-radius: 4px;
             border: none;
             transition: background-color 0.3s ease;
+            display: block;
+            min-width: 169px;
+            height: 56px;   
         }
     
         .button_main:hover,
@@ -183,7 +187,7 @@
         }
 
     .section_benefit {
-        padding: 120px 156px;
+        padding: 120px 0;
     }
 
     .benefit_list {
@@ -217,7 +221,7 @@
 
     .our_team {
         background-color: #F4F4FD;
-        padding: 120px 156px;   
+        padding: 120px 0;   
 
     }
 
@@ -240,6 +244,7 @@
     .our_team_item {
         background-color: #FFFFFF;
         flex-basis: calc((100% - 24px* 3) / 4);
+        border-radius: 0px 0px 4px 4px;
     }
 
     .our_team_item img {
@@ -314,3 +319,17 @@
         letter-spacing: 0.02em;
         width: 264px;
     }
+
+        .visually-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            border: 0;
+            padding: 0;
+    
+            white-space: nowrap;
+            clip-path: inset(100%);
+            clip: rect(0 0 0 0);
+            overflow: hidden;
+        }
